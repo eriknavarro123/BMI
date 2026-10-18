@@ -63,53 +63,11 @@ LladosBMICalculator/
 └── settings.gradle.kts
 ```
 
-5 🚀 Puesta en marcha
 
- Requisitos
+5  Licencia
 
-- [Android Studio](https://developer.android.com/studio) (versión reciente, compatible con AGP 9.x)
-- JDK 11 o superior
-- Un emulador o dispositivo físico con Android 7.0 (API 24) o superior
+Proyecto con fines educativos.
 
- Instalación
-
-```bash
-# 1. Clona el repositorio
-git clone https://github.com/<tu-usuario>/LladosBMICalculator.git
-
-# 2. Entra en la carpeta
-cd LladosBMICalculator
-```
-
-3. Abre el proyecto en **Android Studio** (`File > Open`).
-4. Espera a que Gradle sincronice las dependencias.
-5. Pulsa **Run ▶️** para ejecutar la app en un emulador o dispositivo.
-
-También puedes compilar desde la terminal:
-
-```bash
-./gradlew assembleDebug      # Genera el APK de depuración
-./gradlew test               # Ejecuta los tests unitarios
-```
-
-
-6 🗺️ Estado del proyecto y próximos pasos
-
-El proyecto se encuentra **en desarrollo**. Tareas pendientes:
-
-- [ ] Enlazar correctamente los identificadores de las vistas entre `activity_main.xml` y `MainActivity.kt`.
-- [ ] Mostrar el resultado del IMC y el saludo en la tarjeta inferior.
-- [ ] Añadir un selector de **altura** (actualmente fijada en 1,80 m en el código).
-- [ ] Mostrar la **clasificación** del IMC (bajo peso, normal, sobrepeso, obesidad).
-- [ ] Redondear el resultado a 1–2 decimales.
-- [ ] Mover los textos a `strings.xml` (internacionalización).
-- [ ] Añadir tests unitarios para el cálculo del IMC.
-
-
-7  Licencia
-
-Proyecto con fines educativos. Si deseas publicarlo con una licencia concreta, añade un archivo `LICENSE` (por ejemplo, [MIT](https://choosealicense.com/licenses/mit/)).
-
-8 Autor
+6 Autor
 
 **Erik Navarro Alvarez** — INS Baix Camp
